@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import { Ratelimit } from "@upstash/ratelimit";
 import { createClient } from "@vercel/kv";
 
-const API_URL = process.env?.API_URL || "http://127.0.0.1:8080";
+const API_URL = process.env?.API_URL || "https://imgpilot-backend-445720275658.asia-east1.run.app";
 const API_TOKEN = process.env?.API_TOKEN || "";
 
 const kv =
