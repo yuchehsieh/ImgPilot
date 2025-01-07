@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "xcopy /E /I node_modules\\@excalidraw\\excalidraw public && next dev",
-    "build": "cp -R node_modules/@excalidraw/excalidraw public && next build",
+    "build": "xcopy /E /I node_modules\\@excalidraw\\excalidraw public && next build",
     "start": "next start",
     "lint": "next lint"
   },
